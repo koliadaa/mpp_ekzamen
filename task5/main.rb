@@ -34,3 +34,9 @@ def heapsort(array)
 
   return array
 end
+
+array = [9, 1, 5, 2, 7, 3, 6, 8, 4]
+puts "Невідсортований масив: #{array}"
+
+sorted_array = heapsort(array)
+puts "Відсортований масив: #{sorted_array}"
